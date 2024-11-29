@@ -1,7 +1,14 @@
+body {
+    align-items: center;
+    justify-content: center;
+}
+
 main {
     display: grid;
     grid-template-columns: 200px 200px 200px;
     grid-gap: 0px;
+    align-items: center;
+    justify-content: center;
 }
 
 app-square {

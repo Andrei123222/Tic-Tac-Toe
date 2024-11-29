@@ -3,7 +3,11 @@
 <button (click)="newGame()">Start new game</button>
 
 <h2 *ngIf="winner">
-    Player {{ player }} has won the game
+    Player {{ winner }} has won the game
+</h2>
+
+<h2 *ngIf="isDraw">
+    Game ended in a draw
 </h2>
 
 <main>
